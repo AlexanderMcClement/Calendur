@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("#date").text(moment().format("YYYY MM DD"));
+  $("#date").text(moment().format("dddd MMMM Do YYYY"));
   console.log(moment().hours());
 
   $("button").on("click", function() {
